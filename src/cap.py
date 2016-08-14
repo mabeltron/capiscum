@@ -21,7 +21,7 @@ CELERY_BACKEND = 'redis://192.168.100.58:6379/0'
 #app.config.from_envvar('AP_SETTINGS')
 
 db = SQLAlchemy(app)
-admin = Admin(app, name='accesspoint', template_mode='bootstrap3')
+admin = Admin(app, name='Capiscum', template_mode='bootstrap3')
 celery = make_celery(app)
 api = Api(app)
 
