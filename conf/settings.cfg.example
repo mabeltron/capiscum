@@ -1,0 +1,11 @@
+DEBUG=True
+SECRET_KEY = 'your_secret_key'
+SQLALCHEMY_DATABASE_URI = 'your_database_url'
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+CELERY_BROKER_URL = 'your_celery_broker_url'
+CELERY_RESULT_BACKEND = 'your_celery_result_broker_url'
+MAIL_SERVER = 'your.amil.server'
+MAIL_PORT = 465
+MAIL_USE_SSL = True
+MAIL_USERNAME = 'you@email.com'
+MAIL_PASSWORD = 'password'
